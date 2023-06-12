@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
     // Cong diem
     void OpenDoor()
     {
-        if(player.pointGame == 1)
+        if(player.pointGame == 4)
         {
             door2Win.SetActive(false);
             door2Lose.SetActive(false);
